@@ -56,10 +56,13 @@ dependencies {
 
     //Network calls
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
     //Image loading
     implementation("io.coil-kt:coil-compose:2.4.0")
 
+
+    implementation ("com.google.code.gson:gson:2.8.5")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
