@@ -56,6 +56,8 @@ dependencies {
 
     //Network calls
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
+
+    //Json to Kotlin object mapping
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
     //Image loading
