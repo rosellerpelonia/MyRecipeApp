@@ -68,7 +68,7 @@ fun CategoryItem(category: Category){
             contentDescription = null,
             modifier = Modifier
                 .fillMaxSize()
-                .aspectRatio(1F)
+                .aspectRatio(1f)
         )
         Text(
             text = category.strCategory,

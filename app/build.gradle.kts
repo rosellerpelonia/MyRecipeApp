@@ -63,6 +63,7 @@ dependencies {
     //Image loading
     implementation("io.coil-kt:coil-compose:2.4.0")
 
+    implementation ("androidx.compose.animation:animation:1.6.8")
 
     implementation ("com.google.code.gson:gson:2.8.5")
     implementation(libs.androidx.core.ktx)
